@@ -10,6 +10,6 @@ In this project, I use many new Javascript features introduced in JS ES6 such as
 
 You can download the project and run it on your local machine. Alternatively, you can visit https://itsfaraaz.github.io/NeuroFlow-Coding-Challenge/ where I've hosted a live version.
 
-**NOTE**: If you download the project and run it locally on your machine, you **must** run it on a HTTPS connection as most browsers will not allow you to load a JSON file locally via Javascript for security reasons. Consider using the live server built into Brackets or VSCode.
+**IMPORTANT**: If you download the project and run it locally on your machine, you **must** run it on a HTTPS connection as most browsers will not allow you to load a JSON file locally via Javascript for security reasons. Consider using the live server built into Brackets or VSCode.
 
 Thank you and I hope you enjoy my project!
