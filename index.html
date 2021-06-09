@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>NeuroFlow Coding Challenge</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="assets/css/VCR%20OSD%20Mono.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <h1 id="loading-header" class="page-heading">Loading...</h1>
+
+    <div id="albums-body" style="display: none;">
+        <h1 class="page-heading">Albums</h1>
+        <div class="table-responsive" id="table-div">
+            <table class="table" id="albums-table">
+                <thead id="albumbs-table-header">
+                    <tr>
+                        <th>Band</th>
+                        <th>Album</th>
+                        <th>Genres</th>
+                        <th>Date Released</th>
+                        <th>Last Played</th>
+                    </tr>
+                </thead>
+                <tbody id="albums-table-body">
+                </tbody>
+            </table>
+        </div>
+        <p class="created-by">Created by <a target="_blank" href="https://faraaz.me">Faraaz Khan</a></p>
+    </div>
+    
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="module" src="assets/scripts/mock_api.js"></script>
+    <script type="module" src="assets/scripts/script.js"></script>
+</body>
+
+</html>
