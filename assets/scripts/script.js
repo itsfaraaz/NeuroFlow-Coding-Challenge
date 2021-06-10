@@ -36,7 +36,6 @@ fetchDataPromiseFromJSON('assets/data/albums.json').then(data => {
             const lastListenedDate = reformatDate(album.last_listened)
             var newRowCells = "<td>" + checkNull(album.band_name) + "</td><td>" + checkNull(album.album_title) + "</td><td>" + checkNull(album.genres) + "</td><td>" + releaseDate + "</td><td>" + lastListenedDate + "</td>"
             document.getElementById('albums-table-body').insertRow().innerHTML = newRowCells;
-            console.log(album)
         })
 
         document.getElementById("loading-header").style.display = 'none'
